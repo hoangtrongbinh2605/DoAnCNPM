@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mn_home"
+            android:title="HOME"
+            android:textSize="18dp" />
+
+        <item
+            android:id="@+id/mn_guide"
+            android:title="GUIDE"/>
+
+        <item
+            android:id="@+id/mn_news"
+            android:title="NEWS" />
+        <item
+            android:id="@+id/menu_update"
+            android:title="UPDATE" />
+        <item
+            android:id="@+id/mn_tour"
+            android:title="TOURNAMENT" />
+        <item
+            android:id="@+id/mn_sp"
+            android:title="SUPPORT" />
+    </group>
+
+    <item android:title="other">
+        <menu>
+            <item
+                android:title="Log out"
+                android:icon="@drawable/logout_24px"
+                android:visible="false"/>
+            <item
+                android:title="Log in"
+                android:icon="@drawable/logout_24px"
+                android:visible="true"/>
+        </menu>
+    </item>
+
+</menu>
