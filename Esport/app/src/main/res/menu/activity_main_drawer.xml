@@ -17,7 +17,7 @@
             android:id="@+id/mn_news"
             android:title="NEWS" />
         <item
-            android:id="@+id/menu_update"
+            android:id="@+id/mn_update"
             android:title="UPDATE" />
         <item
             android:id="@+id/mn_tour"
@@ -31,10 +31,12 @@
         <menu>
             <item
                 android:title="Log out"
+                android:id="@+id/mn_logout"
                 android:icon="@drawable/logout_24px"
                 android:visible="false"/>
             <item
                 android:title="Log in"
+                android:id="@+id/mn_login"
                 android:icon="@drawable/logout_24px"
                 android:visible="true"/>
         </menu>

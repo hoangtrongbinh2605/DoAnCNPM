@@ -96,8 +96,9 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Create Account ? Signup"
-            android:textColor="#d9e5f3"
-            android:letterSpacing="0.1"/>
+            android:textColor="#000000"
+            android:letterSpacing="0.1"
+            android:onClick="signup_action"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
