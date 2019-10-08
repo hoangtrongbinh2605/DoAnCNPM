@@ -6,39 +6,44 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/mn_home"
-            android:title="HOME"
-            android:textSize="18dp" />
+            android:icon="@drawable/ic_menu_home_24dp"
+            android:title="@string/menu_home" />
 
         <item
             android:id="@+id/mn_guide"
-            android:title="GUIDE"/>
+            android:icon="@drawable/ic_menu_guide_24dp"
+            android:title="@string/menu_guide" />
 
         <item
             android:id="@+id/mn_news"
-            android:title="NEWS" />
+            android:icon="@drawable/ic_menu_news_24dp"
+            android:title="@string/menu_news" />
         <item
             android:id="@+id/mn_update"
-            android:title="UPDATE" />
+            android:icon="@drawable/ic_menu_update_24dp"
+            android:title="@string/menu_update" />
         <item
             android:id="@+id/mn_tour"
-            android:title="TOURNAMENT" />
+            android:icon="@drawable/ic_menu_tour_24dp"
+            android:title="@string/menu_tour" />
         <item
             android:id="@+id/mn_sp"
-            android:title="SUPPORT" />
+            android:icon="@drawable/ic_menu_support_24dp"
+            android:title="@string/menu_support" />
     </group>
 
-    <item android:title="other">
+    <item android:title="@string/menu_other">
         <menu>
             <item
-                android:title="Log out"
+                android:id="@+id/mn_login"
+                android:icon="@drawable/login_24dp"
+                android:title="@string/menu_login"
+                android:visible="true" />
+            <item
                 android:id="@+id/mn_logout"
                 android:icon="@drawable/logout_24px"
-                android:visible="false"/>
-            <item
-                android:title="Log in"
-                android:id="@+id/mn_login"
-                android:icon="@drawable/logout_24px"
-                android:visible="true"/>
+                android:title="@string/menu_logout"
+                android:visible="false" />
         </menu>
     </item>
 
