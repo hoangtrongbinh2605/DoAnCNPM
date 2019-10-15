@@ -21,4 +21,12 @@
     <string name="menu_login">Log in</string>
     <string name="menu_logout">Log out</string>
     <string name="menu_other">Other</string>
+
+    <string name="menu_manage">Manage</string>
+    <string name="menu_post">Posts</string>
+    <string name="menu_cata">Catalog</string>
+    <string name="menu_user">Users</string>
+    <string name="menu_cmt">Comments</string>
+    <string name="acc_email">guest@gmail.com</string>
+    <string name="acc_name">Guest</string>
 </resources>

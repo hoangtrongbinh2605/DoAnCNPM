@@ -6,8 +6,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background"
         android:gravity="center"
         android:paddingLeft="60dp"
+        android:paddingTop="100dp"
         android:paddingRight="60dp">
 
         <LinearLayout
@@ -90,7 +92,7 @@
                     android:src="@drawable/pswd" />
 
                 <EditText
-                    android:id="@+id/pswrdd"
+                    android:id="@+id/pwdpwd"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
@@ -118,16 +120,16 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/phonemob" />
+                    android:src="@drawable/pswd" />
 
                 <EditText
-                    android:id="@+id/mobphone"
+                    android:id="@+id/confirm"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:background="#00000000"
-                    android:hint="Mobile Number"
-                    android:inputType="number"
+                    android:hint="Confirm password"
+                    android:inputType="textPassword"
                     android:letterSpacing="0.1"
                     android:textColor="#fff"
                     android:textColorHint="#d9e5f3"
@@ -151,17 +153,18 @@
         android:paddingRight="60dp">
 
         <TextView
-            android:id="@+id/sup"
+            android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginBottom="50dp"
-            android:background="#009a9a"
+            android:background="#FA2212"
             android:gravity="center"
             android:letterSpacing="0.2"
             android:padding="16dp"
-            android:text="Signup"
+            android:text="Register"
             android:textColor="#d9e5f3"
+            android:textSize="20dp"
             android:textStyle="bold" />
 
         <TextView
@@ -169,11 +172,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-
             android:letterSpacing="0.1"
-            android:onClick="login_action"
             android:text="Already have an Account ?"
-            android:textColor="#000000" />
+            android:textColor="#fff" />
+        <!--        android:onClick="login_action"-->
     </LinearLayout>
 
     <LinearLayout
@@ -183,8 +185,8 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/ibytes" />
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/logomain" />
     </LinearLayout>
 </RelativeLayout>
